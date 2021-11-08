@@ -25,8 +25,8 @@ const HPSection3Fix = (props) => {
   }, [])
   const partnerCom = partnersApi.length>0 ? 
                 partnersApi.map((partner=>{
-                  return <div className="col" style={{margin:'auto',marginTop:'30px'}}>
-                         <img src={partner.logo.url} style={{width:'150px',maxHeight:'70px'}}/>
+                  return <div className="">
+                         <img src={partner.logo.url} style={{width:'auto',maxWidth:'130px'}}/>
                      </div>
                 })): <p>Loading....</p>
   return (
@@ -40,7 +40,7 @@ const HPSection3Fix = (props) => {
               <p>Moxa bekerja sama dengan berbagai perusahaan keuangan dan asuransi terbaik
               <br/>di Indonesia untuk menyediakan layanan sesuai kebutuhanmu 
               <br/>yang pasti aman serta terpercaya </p>
-            <div className="row" style={{marginBottom:'100px'}}>
+            <div className="row logo-partner" style={{marginBottom:'110px'}}>
             {partnerCom}
                 
             </div>

@@ -641,7 +641,7 @@ li .tentangKami{
   background: #f6f9ff;
 }
 .partersSection h1{
-  margin-top: 80px;
+  margin: 100px 0 20px;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: bold;
@@ -652,7 +652,7 @@ li .tentangKami{
   color: #04325F;
 }
 .partersSection p{
-  margin-bottom: 64px;
+  margin-bottom: 45px;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: normal;
@@ -4647,6 +4647,12 @@ button{
 .btn-variant .col-md-4 button{
   padding: 0 15px !important;
   min-width: 278px;
+}
+
+.logo-partner {
+  align-items: center;
+  justify-content: center;
+  gap: 60px 20px;
 }
 
 @media screen and (max-width: 1133px) {
